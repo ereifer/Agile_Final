@@ -58,6 +58,14 @@ main{
   	color : rgb(0, 0, 0);
   	opacity : 0.5;
   	position : absolute;
+	z-index: 1;
+	text-decoration: none;
+	outline: none;
+    border: 0px none transparent;
+}
+
+.titles:hover{
+	font-weight: bold; 
 }
 
 /*a img {
@@ -91,7 +99,6 @@ main{
 .project-item2{
   	right : 1%;
   	top : 58px;
-  	filter: alpha(opacity=50) ;
   }
 
 
@@ -106,7 +113,6 @@ main{
 .project-item3{
   	left : 1%;
   	top : 45px;
-  	filter: alpha(opacity=50) ;
   }
 
 .box1:hover{
@@ -120,7 +126,6 @@ main{
 .project-item1{
   	right : 1%;
   	top : 60px;
-  	filter: alpha(opacity=50) ;
   }
 
 
