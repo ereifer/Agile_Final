@@ -1,0 +1,133 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	margin: 10px;
+}
+
+main{	
+	margin: 50px auto;
+	padding-top: 80px;
+}
+
+.nav{
+	padding: 5px 5px;
+	margin: 2px 5px;
+	font : 15px;
+  	color : #000000;
+  	color : rgb(0, 0, 0);
+  	opacity : 0.5;
+  	filter: alpha(opacity=50) ;
+}
+
+.link-box{
+	width: 100%;
+	margin: 10px auto -100px;
+	height: 140px;
+	position: relative;
+	max-width: 600px;
+}
+
+.image-item{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	height: 85%;
+}
+
+.left-line{
+	position : absolute;
+ 	display: block;
+  	left : 8%;
+	width: 9%;  
+}
+
+.right-line{
+	position : absolute;
+ 	display: block;
+  	right: 8%;
+	width: 9%; 
+}
+
+.titles{
+	font-size : 12px;
+ 	color : #000000;
+  	color : rgb(0, 0, 0);
+  	opacity : 0.5;
+  	position : absolute;
+}
+
+/*a img {
+    text-decoration: none;
+	outline: none;
+    border: 0px none transparent;
+}*/
+
+.box4:hover{
+	opacity : 0.5;
+}
+
+
+.line4{
+	top: 48px;
+}
+
+.project-item4{
+  	left : 1%;
+  	top : 45px;
+}
+
+.box2:hover{
+	opacity : 0.5;
+}
+
+.line2{
+  	top : 62px;
+}
+
+.project-item2{
+  	right : 1%;
+  	top : 58px;
+  	filter: alpha(opacity=50) ;
+  }
+
+
+.box3:hover{
+	opacity : 0.5;
+}
+
+.line3{
+  	top : 48px;
+}
+
+.project-item3{
+  	left : 1%;
+  	top : 45px;
+  	filter: alpha(opacity=50) ;
+  }
+
+.box1:hover{
+	opacity : 0.5;
+}
+
+.line1{
+  	top : 63px;
+}
+
+.project-item1{
+  	right : 1%;
+  	top : 60px;
+  	filter: alpha(opacity=50) ;
+  }
+
+
+/*
+@media (max-width: 460px) {
+	main {
+		width: 100%;
+		margin: 0;
+	}
+}
